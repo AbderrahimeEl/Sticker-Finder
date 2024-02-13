@@ -1,0 +1,79 @@
+html {
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+main {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#search {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#btnSearch {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+#btnReset:hover {
+  background-color: #ff0000;
+}
+#btnReset {
+  padding: 10px;
+  background-color: #ad4f4f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#btnSearch:hover {
+  background-color: #00ff0d;
+}
+a {
+ color: black;
+  text-decoration: none;
+}
+.out {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  color: #1824199c;
+}
